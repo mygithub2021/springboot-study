@@ -12,6 +12,7 @@
         <module>hello</module>
         <module>springboot-jsp</module>
         <module>spring-boot-thymeleaf</module>
+        <module>springboot-restful</module>
     </modules>
 
 

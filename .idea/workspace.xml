@@ -2,11 +2,61 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff12c58d-2082-4d6d-b923-bfa6f8495650" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-thymeleaf/src/main/resources/templates/object.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-thymeleaf/src/main/resources/templates/utility.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-restful/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-restful/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-restful/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-restful/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-restful/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-restful/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-restful/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-restful/src/main/java/com/newtouch/work/RestfulApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-restful/src/main/java/com/newtouch/work/controller/MessageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-restful/src/main/java/com/newtouch/work/model/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-restful/src/main/java/com/newtouch/work/repository/InMemoryMessageRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-restful/src/main/java/com/newtouch/work/repository/MessageRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-restful/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-restful/src/test/java/com/newtouch/work/RestfulApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-restful/src/test/java/com/newtouch/work/web/MessageControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-socket/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-socket/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-socket/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-socket/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-socket/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-socket/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-socket/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-socket/src/main/java/com/newtouch/work/ChatRoomServerEndpoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-socket/src/main/java/com/newtouch/work/WebSocketApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-socket/src/main/java/com/newtouch/work/utils/WebSocketUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-socket/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-socket/src/main/resources/static/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-socket/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-socket/src/main/resources/static/jquery-3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-socket/src/test/java/com/newtouch/work/WorkApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-swagger/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-swagger/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-swagger/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-swagger/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-swagger/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-swagger/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-swagger/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-swagger/src/main/java/com/newtouch/work/SwaggerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-swagger/src/main/java/com/newtouch/work/config/BaseResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-swagger/src/main/java/com/newtouch/work/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-swagger/src/main/java/com/newtouch/work/controller/MessageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-swagger/src/main/java/com/newtouch/work/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-swagger/src/main/java/com/newtouch/work/model/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-swagger/src/main/java/com/newtouch/work/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-swagger/src/main/java/com/newtouch/work/repository/InMemoryMessageRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-swagger/src/main/java/com/newtouch/work/repository/MessageRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-swagger/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-swagger/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-swagger/src/test/java/com/newtouch/work/SwaggerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-swagger/src/test/java/com/newtouch/work/web/MessageControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-thymeleaf/src/main/java/com/newtouch/work/web/ExampleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-thymeleaf/src/main/java/com/newtouch/work/web/ExampleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,9 +73,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Jsp File" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -46,8 +96,11 @@
     </option>
   </component>
   <component name="ProjectId" id="1ff1v1qNWUf9qcmVC1riyTG3OK4" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
@@ -58,7 +111,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-boot-thymeleaf/src/main/resources/templates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/springboot-socket/src/main/resources/static" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15375" />
@@ -66,17 +119,19 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\project\back\springboot-study\spring-boot-thymeleaf\src\main\resources\templates" />
-      <recent name="F:\project\back\springboot-study\spring-boot-thymeleaf\src\main\java\com\newtouch\work" />
-      <recent name="F:\project\back\springboot-study\springboot-jsp\src\main\resources\static" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\project\back\springboot-study\springboot-jsp\src\main" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.newtouch" />
       <recent name="com.newtouch.hello" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\project\back\springboot-study\springboot-jsp\src\main" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\project\back\springboot-study\springboot-socket\src\main\resources\static" />
+      <recent name="F:\project\back\springboot-study\springboot-socket\src\main\java\com\newtouch\work" />
+      <recent name="F:\project\back\springboot-study\springboot-swagger\src\main\resources" />
+      <recent name="F:\project\back\springboot-study\springboot-swagger\src\test\java\com\newtouch\work" />
+      <recent name="F:\project\back\springboot-study\springboot-swagger\src\main\java\com\newtouch\work" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -91,33 +146,82 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ThymeleafApplication">
-    <configuration name="HellApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hello" />
+  <component name="RunManager" selected="Spring Boot.WebSocketApplication">
+    <configuration name="MessageControllerTest.deleteMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-restful" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.newtouch.hello.*" />
+          <option name="PATTERN" value="com.newtouch.work.web.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.newtouch.hello" />
-      <option name="MAIN_CLASS_NAME" value="com.newtouch.hello.HellApplicationTests" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.newtouch.work.web" />
+      <option name="MAIN_CLASS_NAME" value="com.newtouch.work.web.MessageControllerTest" />
+      <option name="METHOD_NAME" value="deleteMessage" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HellApplicationTests.getHello" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hello" />
+    <configuration name="MessageControllerTest.getAllMessages" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-restful" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.newtouch.hello.*" />
+          <option name="PATTERN" value="com.newtouch.work.web.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.newtouch.hello" />
-      <option name="MAIN_CLASS_NAME" value="com.newtouch.hello.HellApplicationTests" />
-      <option name="METHOD_NAME" value="getHello" />
+      <option name="PACKAGE_NAME" value="com.newtouch.work.web" />
+      <option name="MAIN_CLASS_NAME" value="com.newtouch.work.web.MessageControllerTest" />
+      <option name="METHOD_NAME" value="getAllMessages" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MessageControllerTest.modifyMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-restful" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.newtouch.work.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.newtouch.work.web" />
+      <option name="MAIN_CLASS_NAME" value="com.newtouch.work.web.MessageControllerTest" />
+      <option name="METHOD_NAME" value="modifyMessage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MessageControllerTest.patchMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-restful" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.newtouch.work.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.newtouch.work.web" />
+      <option name="MAIN_CLASS_NAME" value="com.newtouch.work.web.MessageControllerTest" />
+      <option name="METHOD_NAME" value="patchMessage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MessageControllerTest.saveMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-restful" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.newtouch.work.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.newtouch.work.web" />
+      <option name="MAIN_CLASS_NAME" value="com.newtouch.work.web.MessageControllerTest" />
+      <option name="METHOD_NAME" value="saveMessage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -192,40 +296,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringbootJspApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="springBoot-JSP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.newtouch.work.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.newtouch.work.SpringbootJspApplication" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/springboot-jsp" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+    <configuration name="SwaggerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-swagger" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.newtouch.work.SwaggerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThymeleafApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="spring-boot-thymeleaf" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.newtouch.work.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.newtouch.work.ThymeleafApplication" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/spring-boot-thymeleaf" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+    <configuration name="WebSocketApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-socket" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.newtouch.work.WebSocketApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WorkApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-swagger" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.newtouch.work.WorkApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="WorkApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="springboot-jsp" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.newtouch.work.WorkApplication" />
+      <module name="springboot-restful" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.newtouch.work.RestfulApplication" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <method v="2">
@@ -325,18 +419,24 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.HellApplicationTests" />
-      <item itemvalue="JUnit.HellApplicationTests.getHello" />
+      <item itemvalue="Spring Boot.WorkApplication" />
       <item itemvalue="Spring Boot.HelloApplication" />
-      <item itemvalue="Spring Boot.SpringbootJspApplication" />
-      <item itemvalue="Spring Boot.ThymeleafApplication" />
+      <item itemvalue="JUnit.MessageControllerTest.saveMessage" />
+      <item itemvalue="JUnit.MessageControllerTest.getAllMessages" />
+      <item itemvalue="JUnit.MessageControllerTest.modifyMessage" />
+      <item itemvalue="JUnit.MessageControllerTest.patchMessage" />
+      <item itemvalue="JUnit.MessageControllerTest.deleteMessage" />
+      <item itemvalue="Spring Boot.WorkApplication (1)" />
+      <item itemvalue="Spring Boot.SwaggerApplication" />
+      <item itemvalue="Spring Boot.WebSocketApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ThymeleafApplication" />
-        <item itemvalue="Spring Boot.SpringbootJspApplication" />
-        <item itemvalue="JUnit.HellApplicationTests" />
-        <item itemvalue="JUnit.HellApplicationTests.getHello" />
+        <item itemvalue="JUnit.MessageControllerTest.deleteMessage" />
+        <item itemvalue="JUnit.MessageControllerTest.patchMessage" />
+        <item itemvalue="JUnit.MessageControllerTest.modifyMessage" />
+        <item itemvalue="JUnit.MessageControllerTest.getAllMessages" />
+        <item itemvalue="JUnit.MessageControllerTest.saveMessage" />
       </list>
     </recent_temporary>
   </component>
@@ -353,7 +453,8 @@
       <workItem from="1596594560929" duration="12400000" />
       <workItem from="1596611825753" duration="8747000" />
       <workItem from="1596676424613" duration="4416000" />
-      <workItem from="1596680941570" duration="21007000" />
+      <workItem from="1596680941570" duration="21931000" />
+      <workItem from="1596766020443" duration="21570000" />
     </task>
     <servers />
   </component>
@@ -365,11 +466,16 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/springboot_study$WorkApplication.ic" NAME="WorkApplication Coverage Results" MODIFIED="1596680348555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
