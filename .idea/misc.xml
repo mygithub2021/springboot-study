@@ -17,6 +17,7 @@
         <option value="$PROJECT_DIR$/restful/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-swagger/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-socket/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-kafka/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
