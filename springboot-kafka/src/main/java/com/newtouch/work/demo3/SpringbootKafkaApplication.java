@@ -1,13 +1,12 @@
-package com.newtouch.work;
+package com.newtouch.work.demo3;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class WorkApplication {
+public class SpringbootKafkaApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(WorkApplication.class, args);
+        SpringApplication.run(SpringbootKafkaApplication.class, args);
     }
-
 }

@@ -2,22 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff12c58d-2082-4d6d-b923-bfa6f8495650" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/springboot-kafka/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-kafka/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-kafka/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-kafka/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-kafka/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-kafka/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-kafka/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-kafka/src/main/java/com/newtouch/work/ConsumerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-kafka/src/main/java/com/newtouch/work/ProducerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-kafka/src/main/java/com/newtouch/work/WorkApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-kafka/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-kafka/src/test/java/com/newtouch/work/WorkApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-kafka/src/main/java/com/newtouch/work/demo2/KafkaConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-kafka/src/main/java/com/newtouch/work/demo2/KafkaProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-kafka/src/main/java/com/newtouch/work/demo3/CustomizePartitioner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-kafka/src/main/java/com/newtouch/work/demo3/KafkaConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-kafka/src/main/java/com/newtouch/work/demo3/KafkaInitialConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-kafka/src/main/java/com/newtouch/work/demo3/KafkaProducer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-jsp/src/main/java/com/newtouch/work/SpringbootJspApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-jsp/src/main/java/com/newtouch/work/SpringbootJspApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-jsp/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-jsp/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-kafka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-kafka/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-kafka/src/main/java/com/newtouch/work/ConsumerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-kafka/src/main/java/com/newtouch/work/demo1/ConsumerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-kafka/src/main/java/com/newtouch/work/ProducerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-kafka/src/main/java/com/newtouch/work/demo1/ProducerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-kafka/src/main/java/com/newtouch/work/WorkApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-kafka/src/main/java/com/newtouch/work/demo3/SpringbootKafkaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-kafka/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-kafka/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +28,9 @@
   </component>
   <component name="CoverageViewManager">
     <option name="myElementSize" value="78" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="springboot-study" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -72,7 +73,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/springboot-socket/src/main/resources/static" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/springboot-kafka" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15375" />
@@ -80,19 +81,21 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\project\back\springboot-study\springboot-jsp\src\main" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.newtouch" />
-      <recent name="com.newtouch.hello" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\project\back\springboot-study\springboot-socket\src\main\resources\static" />
       <recent name="F:\project\back\springboot-study\springboot-socket\src\main\java\com\newtouch\work" />
       <recent name="F:\project\back\springboot-study\springboot-swagger\src\main\resources" />
       <recent name="F:\project\back\springboot-study\springboot-swagger\src\test\java\com\newtouch\work" />
       <recent name="F:\project\back\springboot-study\springboot-swagger\src\main\java\com\newtouch\work" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.newtouch.work.demo3" />
+      <recent name="com.newtouch.work.demo2" />
+      <recent name="com.newtouch" />
+      <recent name="com.newtouch.hello" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\project\back\springboot-study\springboot-jsp\src\main" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -107,13 +110,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ConsumerDemo">
+  <component name="RunManager" selected="Spring Boot.SpringbootKafkaApplication">
     <configuration name="ConsumerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.newtouch.work.ConsumerDemo" />
+      <option name="MAIN_CLASS_NAME" value="com.newtouch.work.demo1.ConsumerDemo" />
       <module name="springboot-kafka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.newtouch.work.*" />
+          <option name="PATTERN" value="com.newtouch.work.demo1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,11 +125,11 @@
       </method>
     </configuration>
     <configuration name="ProducerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.newtouch.work.ProducerDemo" />
+      <option name="MAIN_CLASS_NAME" value="com.newtouch.work.demo1.ProducerDemo" />
       <module name="springboot-kafka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.newtouch.work.*" />
+          <option name="PATTERN" value="com.newtouch.work.demo1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,38 +148,6 @@
       <option name="PACKAGE_NAME" value="com.newtouch.work.web" />
       <option name="MAIN_CLASS_NAME" value="com.newtouch.work.web.MessageControllerTest" />
       <option name="METHOD_NAME" value="deleteMessage" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MessageControllerTest.modifyMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot-restful" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.newtouch.work.web.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.newtouch.work.web" />
-      <option name="MAIN_CLASS_NAME" value="com.newtouch.work.web.MessageControllerTest" />
-      <option name="METHOD_NAME" value="modifyMessage" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MessageControllerTest.patchMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot-restful" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.newtouch.work.web.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.newtouch.work.web" />
-      <option name="MAIN_CLASS_NAME" value="com.newtouch.work.web.MessageControllerTest" />
-      <option name="METHOD_NAME" value="patchMessage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -247,6 +218,38 @@
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.newtouch.HelloApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootJspApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springBoot-JSP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.newtouch.work.demo1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.newtouch.work.SpringbootJspApplication" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/springboot-jsp" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootKafkaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springboot-kafka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.newtouch.work.demo3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.newtouch.work.demo3.SpringbootKafkaApplication" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/springboot-kafka" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -374,24 +377,24 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.MessageControllerTest.modifyMessage" />
-      <item itemvalue="JUnit.MessageControllerTest.patchMessage" />
+      <item itemvalue="Application.ProducerDemo" />
+      <item itemvalue="Application.ConsumerDemo" />
       <item itemvalue="JUnit.MessageControllerTest.deleteMessage" />
       <item itemvalue="Spring Boot.WorkApplication" />
       <item itemvalue="Spring Boot.HelloApplication" />
       <item itemvalue="Spring Boot.WorkApplication (1)" />
       <item itemvalue="Spring Boot.SwaggerApplication" />
       <item itemvalue="Spring Boot.WebSocketApplication" />
-      <item itemvalue="Application.ProducerDemo" />
-      <item itemvalue="Application.ConsumerDemo" />
+      <item itemvalue="Spring Boot.SpringbootJspApplication" />
+      <item itemvalue="Spring Boot.SpringbootKafkaApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.SpringbootKafkaApplication" />
+        <item itemvalue="Spring Boot.SpringbootJspApplication" />
         <item itemvalue="Application.ConsumerDemo" />
         <item itemvalue="Application.ProducerDemo" />
         <item itemvalue="JUnit.MessageControllerTest.deleteMessage" />
-        <item itemvalue="JUnit.MessageControllerTest.patchMessage" />
-        <item itemvalue="JUnit.MessageControllerTest.modifyMessage" />
       </list>
     </recent_temporary>
   </component>
@@ -411,7 +414,10 @@
       <workItem from="1596680941570" duration="21931000" />
       <workItem from="1596766020443" duration="22170000" />
       <workItem from="1597026036425" duration="3979000" />
-      <workItem from="1597136194297" duration="2034000" />
+      <workItem from="1597136194297" duration="4416000" />
+      <workItem from="1597194146825" duration="509000" />
+      <workItem from="1597195229690" duration="1132000" />
+      <workItem from="1597196455097" duration="11656000" />
     </task>
     <servers />
   </component>

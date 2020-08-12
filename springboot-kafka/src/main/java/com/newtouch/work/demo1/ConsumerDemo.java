@@ -1,4 +1,4 @@
-package com.newtouch.work;
+package com.newtouch.work.demo1;
 
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.clients.consumer.ConsumerRecords;
