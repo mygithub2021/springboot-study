@@ -10,9 +10,17 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>hello</module>
-        <module>springboot-jsp</module>
+        <module>spring-boot-jdbc</module>
+        <module>spring-boot-jsp</module>
+        <module>spring-boot-kafka</module>
+        <module>spring-boot-multi-jdbc</module>
+        <module>spring-boot-multi-mybatis-xml</module>
+        <module>spring-boot-restful</module>
+        <module>spring-boot-socket</module>
+        <module>spring-boot-swagger</module>
         <module>spring-boot-thymeleaf</module>
-        <module>springboot-restful</module>
+
+
     </modules>
 
 
