@@ -19,6 +19,8 @@
         <module>spring-boot-socket</module>
         <module>spring-boot-swagger</module>
         <module>spring-boot-thymeleaf</module>
+        <module>spring-boot-hbase</module>
+        <module>spring-boot-hbase</module>
 
 
     </modules>

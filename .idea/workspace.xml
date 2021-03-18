@@ -1,167 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ff12c58d-2082-4d6d-b923-bfa6f8495650" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-boot-jdbc/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jdbc/src/main/java/com/newtouch/work/SpringbootJdbcApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jdbc/src/main/java/com/newtouch/work/bean/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jdbc/src/main/java/com/newtouch/work/controller/handlerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jdbc/src/main/java/com/newtouch/work/server/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jdbc/src/main/java/com/newtouch/work/server/UserRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jdbc/src/main/java/com/newtouch/work/test/UserRepositoryTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jdbc/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jdbc/src/test/java/com/newtouch/work/SpringbootJdbcApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-multi-jdbc/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-multi-jdbc/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-multi-jdbc/src/main/java/com/newtouch/work/DataSourceConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-multi-jdbc/src/main/java/com/newtouch/work/WorkApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-multi-jdbc/src/main/java/com/newtouch/work/bean/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-multi-jdbc/src/main/java/com/newtouch/work/server/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-multi-jdbc/src/main/java/com/newtouch/work/server/UserRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-multi-jdbc/src/test/java/com/newtouch/work/WorkApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-multi-jdbc/src/test/java/com/newtouch/work/server/UserRepositoryTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-multi-mybatis-xml/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-multi-mybatis-xml/src/main/java/com/newtouch/work/SpringBootMybatisApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-multi-mybatis-xml/src/main/java/com/newtouch/work/datasource/DataSource1Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-multi-mybatis-xml/src/main/java/com/newtouch/work/datasource/DataSource2Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-multi-mybatis-xml/src/main/java/com/newtouch/work/enums/UserSexEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-multi-mybatis-xml/src/main/java/com/newtouch/work/mapper/one/User1Mapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-multi-mybatis-xml/src/main/java/com/newtouch/work/mapper/two/User2Mapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-multi-mybatis-xml/src/main/java/com/newtouch/work/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-multi-mybatis-xml/src/main/java/com/newtouch/work/web/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-multi-mybatis-xml/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-multi-mybatis-xml/src/main/resources/mybatis/mapper/one/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-multi-mybatis-xml/src/main/resources/mybatis/mapper/two/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-multi-mybatis-xml/src/main/resources/mybatis/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-multi-mybatis-xml/src/test/java/com/newtouch/work/SpringBootMybatisApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-multi-mybatis-xml/src/test/java/com/newtouch/work/mapper/User1MapperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-multi-mybatis-xml/src/test/java/com/newtouch/work/mapper/User2MapperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-multi-mybatis-xml/src/test/java/com/newtouch/work/mapper/UserMapperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-restful/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-restful/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-restful/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-restful/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-restful/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-restful/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-socket/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-socket/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-socket/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-socket/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-socket/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-socket/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-swagger/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-swagger/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-swagger/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-swagger/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-swagger/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-swagger/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-swagger/target/classes/com/newtouch/work/SwaggerApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-swagger/target/classes/com/newtouch/work/config/BaseResult$ResponseParam.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-swagger/target/classes/com/newtouch/work/config/BaseResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-swagger/target/classes/com/newtouch/work/config/SwaggerConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-swagger/target/classes/com/newtouch/work/controller/MessageController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-swagger/target/classes/com/newtouch/work/controller/UserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-swagger/target/classes/com/newtouch/work/model/Message.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-swagger/target/classes/com/newtouch/work/model/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-swagger/target/classes/com/newtouch/work/repository/InMemoryMessageRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-swagger/target/classes/com/newtouch/work/repository/MessageRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-swagger/target/test-classes/com/newtouch/work/SwaggerApplicationTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-swagger/target/test-classes/com/newtouch/work/web/MessageControllerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-hbase/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-hbase/spring-boot-hbase.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-mybatis-annotation/spring-boot-mybatis-annotation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-study.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-kafka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-kafka/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-boot-thymeleaf/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-thymeleaf/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-thymeleaf/src/test/java/com/newtouch/work/WorkApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-jsp/src/test/java/com/newtouch/work/WorkApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-jsp/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-jdbc/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-jsp/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-jdbc/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-jsp/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-jdbc/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-jsp/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-jdbc/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-jsp/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-jdbc/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-jsp/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-jdbc/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-jsp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-jsp/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-jsp/src/main/java/com/newtouch/work/ServletInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-jsp/src/main/java/com/newtouch/work/ServletInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-jsp/src/main/java/com/newtouch/work/SpringbootJspApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-jsp/src/main/java/com/newtouch/work/SpringbootJspApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-jsp/src/main/java/com/newtouch/work/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-jsp/src/main/java/com/newtouch/work/controller/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-jsp/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-jsp/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-jsp/src/main/webapp/WEB-INF/jsp/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-jsp/src/main/webapp/WEB-INF/jsp/footer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-jsp/src/main/webapp/WEB-INF/jsp/hello.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-jsp/src/main/webapp/WEB-INF/jsp/hello.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-jsp/src/main/webapp/WEB-INF/jsp/user.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-jsp/src/main/webapp/WEB-INF/jsp/user.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-jsp/src/test/java/com/newtouch/work/SpringbootJspApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-jsp/src/test/java/com/newtouch/work/SpringbootJspApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-jsp/src/test/java/com/newtouch/work/WorkApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-kafka/src/test/java/com/newtouch/work/WorkApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-kafka/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-jsp/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-kafka/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-jsp/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-kafka/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-jsp/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-kafka/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-jsp/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-kafka/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-jsp/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-kafka/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-jsp/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-kafka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-kafka/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-kafka/src/main/java/com/newtouch/work/demo1/ConsumerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-kafka/src/main/java/com/newtouch/work/demo1/ConsumerDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-kafka/src/main/java/com/newtouch/work/demo1/ProducerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-kafka/src/main/java/com/newtouch/work/demo1/ProducerDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-kafka/src/main/java/com/newtouch/work/demo2/KafkaConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-kafka/src/main/java/com/newtouch/work/demo2/KafkaConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-kafka/src/main/java/com/newtouch/work/demo2/KafkaProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-kafka/src/main/java/com/newtouch/work/demo2/KafkaProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-kafka/src/main/java/com/newtouch/work/demo3/CustomizePartitioner.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-kafka/src/main/java/com/newtouch/work/demo3/CustomizePartitioner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-kafka/src/main/java/com/newtouch/work/demo3/KafkaConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-kafka/src/main/java/com/newtouch/work/demo3/KafkaConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-kafka/src/main/java/com/newtouch/work/demo3/KafkaInitialConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-kafka/src/main/java/com/newtouch/work/demo3/KafkaInitialConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-kafka/src/main/java/com/newtouch/work/demo3/KafkaProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-kafka/src/main/java/com/newtouch/work/demo3/KafkaProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-kafka/src/main/java/com/newtouch/work/demo3/SpringbootKafkaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-kafka/src/main/java/com/newtouch/work/demo3/SpringbootKafkaApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-kafka/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-kafka/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-kafka/src/test/java/com/newtouch/work/WorkApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-socket/src/test/java/com/newtouch/work/WorkApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-restful/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-kafka/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-restful/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-kafka/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-restful/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-kafka/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-restful/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-kafka/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-restful/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-kafka/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-restful/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-kafka/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-restful/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-restful/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-restful/src/main/java/com/newtouch/work/RestfulApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-restful/src/main/java/com/newtouch/work/RestfulApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-restful/src/main/java/com/newtouch/work/controller/MessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-restful/src/main/java/com/newtouch/work/controller/MessageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-restful/src/main/java/com/newtouch/work/model/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-restful/src/main/java/com/newtouch/work/model/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-restful/src/main/java/com/newtouch/work/repository/InMemoryMessageRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-restful/src/main/java/com/newtouch/work/repository/InMemoryMessageRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-restful/src/main/java/com/newtouch/work/repository/MessageRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-restful/src/main/java/com/newtouch/work/repository/MessageRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-restful/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-multi-jdbc/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-restful/src/test/java/com/newtouch/work/RestfulApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-restful/src/test/java/com/newtouch/work/RestfulApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-restful/src/test/java/com/newtouch/work/web/MessageControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-restful/src/test/java/com/newtouch/work/web/MessageControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-socket/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-multi-jdbc/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-socket/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-multi-mybatis-xml/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-socket/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-multi-jdbc/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-socket/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-multi-jdbc/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-socket/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-multi-jdbc/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-socket/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-multi-jdbc/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-socket/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-socket/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-socket/src/main/java/com/newtouch/work/ChatRoomServerEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-socket/src/main/java/com/newtouch/work/ChatRoomServerEndpoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-socket/src/main/java/com/newtouch/work/WebSocketApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-socket/src/main/java/com/newtouch/work/WebSocketApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-socket/src/main/java/com/newtouch/work/utils/WebSocketUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-socket/src/main/java/com/newtouch/work/utils/WebSocketUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-socket/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-socket/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-socket/src/main/resources/static/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-socket/src/main/resources/static/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-socket/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-socket/src/main/resources/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-socket/src/main/resources/static/jquery-3.2.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-socket/src/main/resources/static/jquery-3.2.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-socket/src/test/java/com/newtouch/work/WorkApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-thymeleaf/src/test/java/com/newtouch/work/ThymeleafApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-study.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-swagger/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-multi-mybatis-xml/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-swagger/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-restful/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-swagger/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-multi-mybatis-xml/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-swagger/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-multi-mybatis-xml/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-swagger/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-multi-mybatis-xml/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-swagger/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-multi-mybatis-xml/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-swagger/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-swagger/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-swagger/src/main/java/com/newtouch/work/SwaggerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-swagger/src/main/java/com/newtouch/work/SwaggerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-swagger/src/main/java/com/newtouch/work/config/BaseResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-swagger/src/main/java/com/newtouch/work/config/BaseResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-swagger/src/main/java/com/newtouch/work/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-swagger/src/main/java/com/newtouch/work/config/SwaggerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-swagger/src/main/java/com/newtouch/work/controller/MessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-swagger/src/main/java/com/newtouch/work/controller/MessageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-swagger/src/main/java/com/newtouch/work/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-swagger/src/main/java/com/newtouch/work/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-swagger/src/main/java/com/newtouch/work/model/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-swagger/src/main/java/com/newtouch/work/model/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-swagger/src/main/java/com/newtouch/work/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-swagger/src/main/java/com/newtouch/work/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-swagger/src/main/java/com/newtouch/work/repository/InMemoryMessageRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-swagger/src/main/java/com/newtouch/work/repository/InMemoryMessageRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-swagger/src/main/java/com/newtouch/work/repository/MessageRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-swagger/src/main/java/com/newtouch/work/repository/MessageRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-swagger/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-swagger/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-swagger/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-swagger/src/main/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-swagger/src/test/java/com/newtouch/work/SwaggerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-swagger/src/test/java/com/newtouch/work/SwaggerApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-swagger/src/test/java/com/newtouch/work/web/MessageControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-swagger/src/test/java/com/newtouch/work/web/MessageControllerTest.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -206,13 +63,11 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="F:/ruanjian/apache-maven-3.6.3" />
         <option name="userSettingsFile" value="F:\ruanjian\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
       <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
         <option name="jdkForImporter" value="1.8" />
         <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
@@ -225,6 +80,10 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -233,17 +92,19 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-boot-jdbc/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-boot-hbase/pom.xml" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15551181" />
     <property name="project.structure.side.proportion" value="0.342711" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -264,19 +125,44 @@
       <recent name="F:\project\back\springboot-study\spring-boot-jsp\src\main" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="JUnit.UserRepositoryTests.testQuery">
+  <component name="RunManager" selected="Application.ConsumerDemo">
+    <configuration name="ConsumerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.newtouch.work.demo1.ConsumerDemo" />
+      <module name="spring-boot-thymeleaf" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.newtouch.work.demo1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProducerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.newtouch.work.demo1.ProducerDemo" />
+      <module name="spring-boot-thymeleaf" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.newtouch.work.demo1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="User1MapperTest.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-boot-multi-mybatis-xml" />
       <extension name="coverage">
@@ -288,37 +174,6 @@
       <option name="PACKAGE_NAME" value="com.newtouch.work.mapper" />
       <option name="MAIN_CLASS_NAME" value="com.newtouch.work.mapper.User1MapperTest" />
       <option name="METHOD_NAME" value="testInsert" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserRepositoryTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-boot-multi-jdbc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.newtouch.work.server.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.newtouch.work.server" />
-      <option name="MAIN_CLASS_NAME" value="com.newtouch.work.server.UserRepositoryTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserRepositoryTests.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-boot-jdbc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.newtouch.work.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.newtouch.work.test" />
-      <option name="MAIN_CLASS_NAME" value="com.newtouch.work.test.UserRepositoryTests" />
-      <option name="METHOD_NAME" value="testDelete" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -356,7 +211,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+    <configuration default="true" type="JetRunConfigurationType">
       <module name="springboot-study" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -369,7 +224,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <module name="springboot-study" />
       <option name="filePath" />
       <option name="vmParameters" />
@@ -432,6 +287,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringbootJdbcApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="work (1)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.newtouch.work.SpringbootJdbcApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringbootJdbcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-boot-jdbc" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.newtouch.work.SpringbootJdbcApplication" />
@@ -460,6 +322,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThymeleafApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="work (2)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.newtouch.work.ThymeleafApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WebSocketApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-boot-socket" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.newtouch.work.WebSocketApplication" />
@@ -469,6 +338,13 @@
     </configuration>
     <configuration name="WorkApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-boot-swagger" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.newtouch.work.WorkApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WorkApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-thymeleaf" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.newtouch.work.WorkApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -576,10 +452,10 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.ProducerDemo" />
+      <item itemvalue="Application.ConsumerDemo" />
       <item itemvalue="JUnit.UserRepositoryTests.testQuery" />
-      <item itemvalue="JUnit.UserRepositoryTests.testDelete" />
       <item itemvalue="JUnit.UserRepositoryTests.testSave (1)" />
-      <item itemvalue="JUnit.UserRepositoryTests" />
       <item itemvalue="JUnit.User1MapperTest.testInsert" />
       <item itemvalue="Spring Boot.WorkApplication" />
       <item itemvalue="Spring Boot.HelloApplication" />
@@ -590,17 +466,21 @@
       <item itemvalue="Spring Boot.SpringBootMybatisApplication" />
       <item itemvalue="Spring Boot.SpringbootJspApplication" />
       <item itemvalue="Spring Boot.SpringbootKafkaApplication" />
+      <item itemvalue="Spring Boot.WorkApplication (2)" />
+      <item itemvalue="Spring Boot.ThymeleafApplication" />
+      <item itemvalue="Spring Boot.SpringbootJdbcApplication (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConsumerDemo" />
+        <item itemvalue="Application.ProducerDemo" />
         <item itemvalue="JUnit.UserRepositoryTests.testQuery" />
         <item itemvalue="JUnit.User1MapperTest.testInsert" />
         <item itemvalue="JUnit.UserRepositoryTests.testSave (1)" />
-        <item itemvalue="JUnit.UserRepositoryTests" />
-        <item itemvalue="JUnit.UserRepositoryTests.testDelete" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -627,24 +507,28 @@
       <workItem from="1597369164687" duration="989000" />
       <workItem from="1597370184067" duration="4968000" />
       <workItem from="1597375254192" duration="1264000" />
+      <workItem from="1607670266125" duration="4924000" />
+      <workItem from="1607912720024" duration="1890000" />
+      <workItem from="1616054143819" duration="2239000" />
+      <workItem from="1616057137753" duration="2649000" />
+      <workItem from="1616059929712" duration="1858000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

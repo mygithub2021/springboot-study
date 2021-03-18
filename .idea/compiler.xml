@@ -6,24 +6,28 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-boot-jsp" />
-        <module name="spring-boot-kafka" />
-        <module name="spring-boot-multi-mybatis-xml" />
-        <module name="spring-boot-thymeleaf" />
-        <module name="spring-boot-socket" />
-        <module name="spring-boot-restful" />
-        <module name="spring-boot-jdbc" />
-        <module name="hello" />
-        <module name="spring-boot-multi-jdbc" />
-        <module name="spring-boot-swagger" />
-      </profile>
-      <profile name="Annotation profile for springboot-study" enabled="true">
-        <sourceOutputDir name="../spring-boot-jdbc/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../spring-boot-jdbc/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="spring-boot-multi-jdbc" />
+        <module name="spring-boot-hbase" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hello" target="1.8" />
+      <module name="spring-boot-hbase" target="8" />
+      <module name="spring-boot-jdbc" target="1.8" />
+      <module name="spring-boot-jsp" target="1.8" />
+      <module name="spring-boot-kafka" target="1.8" />
+      <module name="spring-boot-multi-jdbc" target="1.8" />
+      <module name="spring-boot-multi-mybatis-xml" target="1.8" />
+      <module name="spring-boot-restful" target="1.8" />
+      <module name="spring-boot-socket" target="1.8" />
+      <module name="spring-boot-swagger" target="1.8" />
+      <module name="spring-boot-thymeleaf" target="1.8" />
+      <module name="work (1)" target="1.8" />
+      <module name="work (2)" target="1.8" />
+      <module name="work (3)" target="1.8" />
+      <module name="work (5)" target="1.8" />
+      <module name="work (6)" target="1.8" />
+      <module name="work (7)" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
@@ -37,6 +41,9 @@
       <module name="spring-boot-socket" options="-parameters" />
       <module name="spring-boot-swagger" options="-parameters" />
       <module name="spring-boot-thymeleaf" options="-parameters" />
+      <module name="work (1)" options="-parameters" />
+      <module name="work (2)" options="-parameters" />
+      <module name="work (3)" options="-parameters" />
     </option>
   </component>
 </project>

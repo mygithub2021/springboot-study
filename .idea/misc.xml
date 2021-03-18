@@ -2,24 +2,34 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/spring-boot-jdbc" />
     <file type="web" url="file://$PROJECT_DIR$/spring-boot-jsp" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-boot-kafka/src/main/java" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-boot-kafka/src/main/resources" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-boot-kafka/src/test/java" />
     <file type="web" url="file://$PROJECT_DIR$/spring-boot-thymeleaf" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-hbase/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
         <option value="$PROJECT_DIR$/hello/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-jdbc/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-jsp/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-kafka/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-multi-jdbc/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-boot-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-multi-mybatis-xml/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-restful/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-socket/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-swagger/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-thymeleaf/pom.xml" />
-      </list>
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
