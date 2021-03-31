@@ -1,0 +1,9 @@
+server:
+  port: 8091
+  servlet:
+    context-path: /jdbc
+spring:
+  application:
+    name: MAApplication
+  profiles:
+    active: db2

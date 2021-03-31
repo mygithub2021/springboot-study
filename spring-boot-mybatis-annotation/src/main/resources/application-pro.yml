@@ -1,0 +1,49 @@
+#db2数据库
+spring:
+  application:
+    name: MAApplication
+  datasource:
+    db2:
+      url: jdbc:db2://localhost:50000/sample
+      username: root
+      password: root
+      ConnectionTestQuery: SELECT 1
+      type: com.alibaba.druid.pool.DruidDataSource
+      druid:
+        driver-class-name: com.ibm.db2.jcc.DB2Driver
+        initial-size: 5
+        max-active: 20
+        min-idle: 5
+        max-wait: 60000
+        pool-prepared-statements: false
+        max-pool-prepared-statement-per-connection-size: -1
+        validation-query: SELECT 1 FROM margin.WORKER
+        validation-query-timeout: 1
+        test-on-borrow: false
+        test-on-return: false
+        test-while-idle: true
+        time-between-eviction-runs-millis: 6000
+        min-evictable-idle-time-millis: 1800000
+        stat-view-servlet:
+          url-pattern: /druid/*
+          login-username: admin
+          login-password: admin
+      filters: stat,wall,logback
+      connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
+
+    mysql:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      jdbc-url: jdbc:mysql://localhost:3306/user?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8&useSSL=true
+      username: root
+      password: root
+      hikari:
+        pool-name: MysqlDataSourcePool
+        minimum-idle: 10
+        maximum-pool-size: 60
+        max-lifetime: 120000
+        auto-commit: false
+        idle-timeout: 30000
+        connection-timeout: 60000
+        connection-test-query: select 1
+
+

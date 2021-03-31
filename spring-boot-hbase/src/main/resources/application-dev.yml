@@ -1,0 +1,8 @@
+spring:
+    application:
+      name: HbaseApplication
+HBase:
+  userName : userName
+  password : password
+  host_dav : http:127.0.0.1:8080
+  password_dev : password_dev

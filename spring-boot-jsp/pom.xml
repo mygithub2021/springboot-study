@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.newtouch</groupId>
-    <artifactId>work</artifactId>
+    <artifactId>spring-boot-jsp</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>war</packaging>
     <name>spring-boot-jsp</name>

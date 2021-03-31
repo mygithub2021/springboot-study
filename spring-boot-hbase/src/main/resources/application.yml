@@ -1,0 +1,9 @@
+server:
+  port: 8091
+  servlet:
+    context-path: /back
+  spring:
+    application:
+      name: HbaseApplication
+    profiles:
+      active: dev

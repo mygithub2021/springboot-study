@@ -1,0 +1,33 @@
+#db2数据库
+spring:
+  application:
+    name: springbootJdbcApplication
+  datasource:
+    driver-class-name: com.ibm.db2.jcc.DB2Driver
+    url: jdbc:db2://localhost:50000/sample
+    username: root
+    password: root
+    ConnectionTestQuery: SELECT 1
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      driver-class-name: com.ibm.db2.jcc.DB2Driver
+      initial-size: 5
+      max-active: 20
+      min-idle: 5
+      max-wait: 60000
+      pool-prepared-statements: false
+      max-pool-prepared-statement-per-connection-size: -1
+      validation-query: SELECT 1 FROM margin.WORKER
+      validation-query-timeout: 1
+      test-on-borrow: false
+      test-on-return: false
+      test-while-idle: true
+      time-between-eviction-runs-millis: 6000
+      min-evictable-idle-time-millis: 1800000
+      stat-view-servlet:
+        url-pattern: /druid/*
+        login-username: admin
+        login-password: admin
+    filters: stat,wall,logback
+    connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
+

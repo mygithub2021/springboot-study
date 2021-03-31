@@ -17,13 +17,13 @@ public class UserRepositoryTests {
     private UserRepository userRepository;
     @Test
     public  void  testSave(){
-        User user = new User("zhangsan","123456",12);
+        User user = new User("zhangsan","ppppp",12);
         userRepository.save(user);
     }
 
     @Test
     public  void  testUpdate(){
-        User user  = new User("zhangsan","456789",18);
+        User user  = new User("zhangsan1","22222",19);
         user.setId(2L);
         userRepository.update(user);
     }
