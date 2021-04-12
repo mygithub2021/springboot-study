@@ -20,8 +20,8 @@ import javax.sql.DataSource;
  * @date 2021/3/30
  */
 
-//@Configuration
-//@MapperScan(basePackages = "com.neo.mapper.mysql", sqlSessionTemplateRef = "mysqlSessionTemplate")
+@Configuration
+@MapperScan(basePackages = "com.neo.mapper.mysql", sqlSessionTemplateRef = "mysqlSessionTemplate")
 public class MysqlDataSourceConfig {
 
 

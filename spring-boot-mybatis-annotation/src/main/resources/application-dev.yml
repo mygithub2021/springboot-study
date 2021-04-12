@@ -5,7 +5,7 @@ spring:
   datasource:
     db2:
       url: jdbc:db2://localhost:50000/sample
-      username: root
+      username: db2admin
       password: root
       type: com.alibaba.druid.pool.DruidDataSource
       druid:
@@ -16,7 +16,7 @@ spring:
         max-wait: 60000
         pool-prepared-statements: false
         max-pool-prepared-statement-per-connection-size: -1
-        validation-query: SELECT 1 FROM margin.WORKER
+        validation-query: select 1 from sysibm.sysdummy1
         validation-query-timeout: 1
         test-on-borrow: false
         test-on-return: false
@@ -27,7 +27,7 @@ spring:
           url-pattern: /druid/*
           login-username: admin
           login-password: admin
-      filters: stat,wall,logback
+      filters: stat,wall,slf4j
       connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
 
 

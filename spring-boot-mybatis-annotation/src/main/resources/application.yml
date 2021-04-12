@@ -6,4 +6,4 @@ spring:
   application:
     name: MAApplication
   profiles:
-    active: db2
+    active: dev

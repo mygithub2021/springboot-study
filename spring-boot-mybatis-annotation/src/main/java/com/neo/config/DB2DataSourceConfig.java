@@ -25,8 +25,8 @@ import java.util.Properties;
  * @date 2021/3/30
  */
 
-//@Configuration
-//@MapperScan(basePackages = "com.neo.mapper.db2", sqlSessionTemplateRef = "db2SessionTemplate")
+@Configuration
+@MapperScan(basePackages = "com.neo.mapper.db2", sqlSessionTemplateRef = "db2SessionTemplate")
 public class DB2DataSourceConfig {
 
 
@@ -61,7 +61,7 @@ public class DB2DataSourceConfig {
     @ConfigurationProperties(prefix="spring.datasource.db2")
     public DataSource db2DataSource() throws SQLException {
         DruidDataSource dataSource = new DruidDataSource();
-//        dataSource.setDriverClassName(dirverClassName);//如果不配置druid会根据url自动识别dbType，然后选择相应的driverClassName
+        dataSource.setDriverClassName(dirverClassName);//如果不配置druid会根据url自动识别dbType，然后选择相应的driverClassName
 
         dataSource.setUrl(url);
         dataSource.setUsername(userName);
@@ -72,7 +72,7 @@ public class DB2DataSourceConfig {
         dataSource.setMaxWait(60000);
         dataSource.setPoolPreparedStatements(false);
         dataSource.setMaxPoolPreparedStatementPerConnectionSize(-1);
-        dataSource.setValidationQuery("SELECT 1 FROM margin.WORKER");//用来检测连接是否有效
+        dataSource.setValidationQuery("select 1 from sysibm.sysdummy1");//用来检测连接是否有效
         dataSource.setValidationQueryTimeout(1);
         dataSource.setTestOnBorrow(false);//申请连接时执行validationQuery检测连接是否有效，做了这个配置会降低性能
         dataSource.setTestOnReturn(false);//归还连接时执行validationQuery检测连接是否有效，做了这个配置会降低性能
@@ -80,7 +80,7 @@ public class DB2DataSourceConfig {
         dataSource.setTestWhileIdle(true);//如果检测失败，则连接将被从池中去除
         dataSource.setTimeBetweenEvictionRunsMillis(6000);
         dataSource.setMinEvictableIdleTimeMillis(100000);
-        dataSource.setFilters("stat,wall,logback");
+        dataSource.setFilters(filters);
         dataSource.setConnectProperties(properties);
 
         return dataSource;

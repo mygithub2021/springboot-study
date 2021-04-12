@@ -7,7 +7,7 @@ import java.util.List;
 @Mapper
 public interface EmployeeMapper {
 	
-	@Select("SELECT empId,empName,empAge FROM EMPLOYEE")
+	@Select("SELECT empId,empName,empAge FROM yepengfei.EMPLOYEE")
 	@Results({
 		@Result(property = "empId",  column = "empId",jdbcType = JdbcType.INTEGER),
 		@Result(property = "empName", column = "empName",jdbcType = JdbcType.VARCHAR),

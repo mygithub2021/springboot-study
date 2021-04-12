@@ -50,17 +50,23 @@
 
 		<!-- DB2 -->
 		<!-- https://mvnrepository.com/artifact/com.ibm.db2/db2jcc -->
-		<dependency>
-			<groupId>com.ibm.db2</groupId>
-			<artifactId>db2jcc</artifactId>
-			<version>8.1</version>
-		</dependency>
-		<!-- https://mvnrepository.com/artifact/com.ibm.db2.jcc/db2jcc4 -->
 <!--		<dependency>-->
 <!--			<groupId>com.ibm.db2.jcc</groupId>-->
-<!--			<artifactId>db2jcc4</artifactId>-->
-<!--			<version>10.1</version>-->
+<!--			<artifactId>db2-spring-boot-starter</artifactId>-->
+<!--			<version>0.0.1</version>-->
 <!--		</dependency>-->
+
+<!--		<dependency>-->
+<!--			<groupId>com.ibm.db2</groupId>-->
+<!--			<artifactId>jcc</artifactId>-->
+<!--			<version>11.5.0.0</version>-->
+<!--		</dependency>-->
+		<!-- https://mvnrepository.com/artifact/com.ibm.db2.jcc/db2jcc4 -->
+		<dependency>
+			<groupId>com.ibm.db2.jcc</groupId>
+			<artifactId>db2jcc</artifactId>
+			<version>db2jcc4</version>
+		</dependency>
 
 <!--		<dependency>-->
 <!--			<groupId>cn.guoyukun.jdbc</groupId>-->
