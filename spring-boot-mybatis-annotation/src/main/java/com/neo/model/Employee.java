@@ -1,5 +1,7 @@
 package com.neo.model;
 
+import java.util.Date;
+
 /**
  * @program: Employee
  * @description: 员工
@@ -8,10 +10,12 @@ package com.neo.model;
  * @Version 1.0
  **/
 
+
 public class Employee {
     private Integer empId;
     private String empName;
     private Integer empAge;
+    private Date birth;
 
     public Employee(){}
 
@@ -37,6 +41,14 @@ public class Employee {
 
     public void setEmpAge(Integer empAge) {
         this.empAge = empAge;
+    }
+
+    public Date getBirth(){
+        return birth;
+    }
+
+    private void setBirth(Date birth){
+        this.birth = birth ;
     }
 
     @Override

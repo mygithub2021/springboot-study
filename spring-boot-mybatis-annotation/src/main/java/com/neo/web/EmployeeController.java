@@ -38,4 +38,17 @@ public class EmployeeController {
         System.out.println(" getAll "+employees);
         return employees;
     }
+
+    @ResponseBody
+    @GetMapping("/getAllByTimes")
+    public List<Employee> getAllByTimes(String birth){
+        List<Employee> employees = employeeMapper.getAllByTimes(birth);
+        System.out.println(" getAll "+employees);
+        return employees;
+    }
+
+
+
+
+
 }
